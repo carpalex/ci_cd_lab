@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/carpalex/ci_cd_lab:latest
+          image: ghcr.io/carpalex/ci_cd_lab@sha256:3128f1c32a6787184bfe7e95618c20e019892166d86104c65d047f39b539e872
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
